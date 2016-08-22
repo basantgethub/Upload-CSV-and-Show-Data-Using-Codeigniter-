@@ -11,8 +11,8 @@
                           <div class="row">
                               <div class="col-md-6">
                                  <!-- <form class="form" id="csv_form" style="margin-top:0px;" action = "<?php print $this->appUrls['BRAND_NOTIFICATION_UPLOAD_CSV_SUBSCRIBER_URL'].'&submit=1';?>" ENCTYPE="multipart/form-data" METHOD=POST>-->
-                                 <!--<form class="form" id="csv_form" style="margin-top:0px;" action = "<?php echo base_url('customize_template/uploadCSVFile').'&submit=1';?>" ENCTYPE="multipart/form-data" METHOD=POST>-->
-                                    <form class="form" id="csv_form" style="margin-top:0px;" action = "<?php echo $baseurl;?>customize_template/uploadCSVFile<?php print '&submit=1';?>" ENCTYPE="multipart/form-data" METHOD=POST>
+                                 <!--<form class="form" id="csv_form" style="margin-top:0px;" action = "<?php echo base_url('customize/uploadCSVFile').'&submit=1';?>" ENCTYPE="multipart/form-data" METHOD=POST>-->
+                                    <form class="form" id="csv_form" style="margin-top:0px;" action = "<?php echo $baseurl;?>customize/uploadCSVFile<?php print '&submit=1';?>" ENCTYPE="multipart/form-data" METHOD=POST>
                                       <div class="form-group">
                                           <label style="font-weight: normal;">CsV file</label>
                                           <div class="row">
